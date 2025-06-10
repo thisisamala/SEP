@@ -1,0 +1,108 @@
+body{
+  background-image:  url(thunderbolts.jpg);
+  background-position: center;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+.form-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.form-container1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.form-container2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  padding: 0.5%;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 200px;
+  height:400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.meow{
+  background-color:yellow ;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color:black;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.button1 {
+  width: 5cm;
+  height: 25%;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  color: yellow;
+  font-size: 150px;
+  cursor: pointer;
+  transition: background 0.3s;
+  background-color: hsla(200%,100%,50%,1);
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-weight: 600;
+  margin-top: 10px;
+}
