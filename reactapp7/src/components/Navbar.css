@@ -1,0 +1,20 @@
+
+ul {
+    text-align:left;
+    padding-inline-start: 150px;
+    background-color: rgb(175, 29, 29);
+    border-style:solid ;
+    border-color: rgba(148, 42, 42, 0.892); ;
+    font-size: large;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+    max-height: max-content;
+    max-width: 175px;
+  
+    
+    
+}
+
+a:visited {
+      color: rgb(255, 157, 0);
+    }
