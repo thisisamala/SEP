@@ -1,0 +1,23 @@
+.div2{
+    margin: 10%;
+    background-color: blanchedalmond;
+    padding:100px;
+    border-color: rgba(148, 42, 42, 0.892);
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+    max-width: max-content;
+}
+
+.div1{
+    border-radius:15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9);
+    padding:1cm;
+    border-color:rgba(148, 42, 42, 0.892);
+    border-width: 4px;
+    border-style:solid ;
+    background-color: blanchedalmond;
+    max-width:max-content;
+    max-height: max-content;
+}
+

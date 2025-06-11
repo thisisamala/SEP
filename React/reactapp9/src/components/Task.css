@@ -1,0 +1,95 @@
+
+
+
+.todo-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.button1 {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+li button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background: #c0392b;
+}
+
+.container {
+  width: 380px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  height:fit-content;
+}
+.heading {
+  text-align: center;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.ul {
+  list-style: none;
+  padding: 0px;
+}
+.li {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.deleteButton {
+  position: fit-content;
+  left: 310px;
+  top: 0.05mm;
+  background-color: #e74c3c;
+  color: white;
+  border: solid;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+  width:70px;
+}
